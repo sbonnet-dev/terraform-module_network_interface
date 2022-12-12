@@ -55,7 +55,7 @@ variable "rg_name" {
 }
 
 variable "subnet_id" {
-    type = string
-    description = "Subnet Identifier"
-  
+  type        = string
+  description = "Subnet Identifier"
+
 }
